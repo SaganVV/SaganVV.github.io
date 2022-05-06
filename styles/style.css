@@ -1,0 +1,59 @@
+html {
+    font-size: 14px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: Open Sans /* здесь должно быть имя шрифта из Google fonts */
+}
+h1{
+    size: 60px;
+    text-align: center;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+
+.to-youtube{
+    color: crimson;
+}
+
+a:hover{
+    color: black;
+
+    border: 1px solid;
+    border-color: aquamarine;
+}
+html {
+    background-color: #f5c842;
+}
+body {
+    width: 600px;
+    margin: auto auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1 {
+    margin: 0;
+    padding: 22px 0;
+    color: rgb(10, 83, 239);
+    text-shadow: 2px 4px 2px black;
+}
+
+img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+button{
+    text-align: center;
+    font-family: Caladea;
+    background-color: red;
+    border: 1px solid;
+    margin-top: 5px;
+    margin-left: 0;
+    padding: 5px 5px 5px 5px;
+}
+button:hover{
+    background-color: green;
+}
